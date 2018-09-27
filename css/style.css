@@ -129,8 +129,10 @@ li .channel-meta {
     top: 12px;
 }
 
-li img {
+li img, li span {
     vertical-align: middle;
+    font-size: 24px;
+    font-weight:900;
 }
 
 li.selected {
@@ -269,4 +271,10 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+
+#channel-location a{
+  text-decoration: none;
+  font-weight: bold;
 }
