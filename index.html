@@ -23,7 +23,7 @@
     <script src="js/script.js"></script>
 
 </head>
-<body>
+<body onload="listChannels()">
 
 <!-- channel area -->
 <div id="channels">
@@ -173,6 +173,14 @@
     <div id="chat-bar"> <!-- #6 #smile #show the menu on click -->
         <button id="emojis-button" onclick="toggleEmojis()"><img src="http://ip.lfe.mw.tum.de/sections/smile-o.png" alt="Smiley"></button>
         <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1F606; &#x1F607;</div>
+
+
+          <input id="input-field" type="text" placeholder="Message..." maxlength="140">
+
+          <button id="send-button" onclick="sendMessage()"><i class="fas fa-arrow-right"></i></button>
+
+
+
     </div>
 </div>
 
